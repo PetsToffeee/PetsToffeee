@@ -1,0 +1,268 @@
+body{
+background-color: #ffb6c129;"
+display: flex;
+justify-content: center;
+background-position: center;
+background-size: cover;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+	 }
+.title_main{
+		color: brown;
+		font-size: 55px;
+		}
+.reg_con
+{
+	justify-content: center;
+	background-color: rgba(67, 111, 111, 0.9);
+	border: 1px solid #e3e3e3;
+	border-radius: 16px;
+	box-sizing: border-box;
+	font-family: arial, Helvetica, sans-serif;
+	position: relative;
+	height: 100%;
+	margin: auto;
+	padding: 5px;
+	width: 65%;
+	top: 30%;
+	transform: translate(2%, 15%);
+	color: white;
+	box-shadow: 1px 1px 10px #70b9b9;
+		}
+
+.login_2 span {
+  
+
+}
+
+.login_2 span a{
+	font-size: 14px;
+  margin-right: 2%;
+  text-align: right;
+  color: #04aa6d;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 800;
+  /*margin-left: 2px;*/
+  font-size: 16px;
+}
+
+.login_2 span span:hover{
+  color: deepskyblue;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 800;
+  margin-left: 2px;
+  font-size: 16px;
+}
+
+.user_name_wrapper, .mobile_verif_wrapper, .user_cred_wrapper {
+	padding: 14px;
+	margin: 2px;	
+	background-color: transparent;
+	border-radius: 2px;
+	font-family: ebrima;
+	display: flex;
+	/*justify-content: center*/;
+}
+
+.First_name, .Last_Name
+	{
+	position:relative;
+	background-color: transparent;
+	width: 100%;
+	margin: 10px;
+	display: flex;
+	border: 1px solid cyan;
+	padding-left: 5px;
+}
+
+.First_name span, .Last_Name span{
+	border-radius: 5px;
+	color: white;
+	width: 5%;
+	justify-content: center;
+	line-height: 45px;
+	font-size:20px;
+	margin-right: 6px;
+}
+
+.First_name input, .Last_Name input{
+	position: relative;
+	width: 95%;
+	height: 100%;
+	font-size: 1.1rem;
+	padding: 1px;
+	color: white;
+	background-color: transparent;
+	border: 1px solid cyan;
+	border-radius: 1px;
+	/*margin-bottom: 12px;*/
+	font-family: ebrima;
+}
+
+ 
+.mobile_verif_wrapper {
+	text-align: center;
+	position: relative;
+}
+
+.mobile_verif_wrapper div.mobile_number
+	{
+	position: relative;
+	background-color: transparent;
+	width: 35%;
+	margin: 15px;
+	display: flex;
+	/*border: 1px solid cyan;
+*/}
+.mobile_verif_wrapper div.mobile_number input
+	{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-size: 1.1rem;
+	padding: 1px;
+	color: white;
+	background-color: transparent;
+	border: 1px solid cyan;
+	border-radius: 1px;
+	/*margin-bottom: 8px;*/
+	font-family: ebrima;
+}
+
+.mobile_verif_wrapper div.verify_otp
+	{
+	position: flex;
+	background-color: transparent;
+	width: 35%;
+	margin: 15px;
+	display: flex;
+	/*border: 1px solid cyan;
+*/}
+.digit-group{
+	width: 100%;
+	/*border: 1px solid cyan;
+*/
+}
+
+
+.digit-group input{
+		background-color: transparent;
+		border: 1px solid cyan;
+		text-align: center;
+		font-size: 24px;
+		font-family: 'Raleway', sans-serif;
+		color: white;
+		width: 30px;
+		height: 35px;
+
+	}
+
+	.splitter span{
+		/*padding: 0 5px;*/
+		color: white;
+		font-size: 24px;
+	}
+
+
+.verify_otp button{
+	height: 35px;
+	width: 75px;
+	/*font-family: 'Raleway', sans-serif;
+*/	border-radius: 5px;
+	border: 1px solid cyan;
+	color: white;
+	padding: 4px;
+	margin-left: 2px;
+	background-color: slategrey;
+
+}
+.verify_otp button:hover{
+	height: 35px;
+	/*width: 50px;*/
+	/*font-family: 'Raleway', sans-serif;
+*/	border-radius: 5px;
+	border: 1px solid cyan;
+	color: white;
+	padding: 4px;
+	margin-left: 2px;
+	background-color: blueviolet;
+
+}
+
+.field
+	{
+	position: relative;
+	background-color: transparent;
+	width: 100%;
+	margin: 15px;
+	display: flex;
+	border: 1px solid cyan;
+	padding-left: 6px;
+
+}
+
+.field span{
+	border-radius: 5px;
+	color: white;
+	width: 5%;
+	line-height: 45px;
+	text-align: center;
+	font-size:20px;
+	margin-right: 6px;
+}
+.field input{
+	position: relative;
+	width: 95%;
+	height: 100%;
+	font-size: 1.1rem;
+	padding: 1px;
+	color: white;
+	background-color: transparent;
+	border: 1px solid cyan;
+	border-radius: 1px;
+	margin-bottom: 12px;
+	font-family: ebrima;
+}
+
+.field1
+	{
+	position: relative;
+	background-color: transparent;
+	width: 100%;
+	margin: 15px;
+	display: flex;
+	border: 1px solid cyan;
+	padding-left: 6px;
+
+}
+
+.field1 span{
+	border-radius: 5px;
+	color: white;
+	width: 5%;
+	line-height: 45px;
+	text-align: center;
+	font-size:26px;
+	margin-right: 12px;
+}
+.field1 input{
+	position: flex;
+	width: 95%;
+	height: 100%;
+	font-size: 1.1rem;
+	padding: 1px;
+	color: white;
+	background-color: transparent;
+	border: 1px solid cyan;
+	border-radius: 1px;
+	margin-bottom: 12px;
+	font-family: ebrima;
+}
+
