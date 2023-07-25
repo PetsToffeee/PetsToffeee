@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title >Pets Toffeee</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	  <link rel="stylesheet" type="text/css" href="reg_style.css">
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&family=Rubik+Maze&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+	</style> 
+	 
+</head>
+
+<body>
+		<h2 class = "title_main", style="font-family: 'Rubik Marker Hatch', cursive; text-align: right; margin-right: 2%;margin-top: 1%; color: brown;">Pets Toffeee</h2>	
+	
+	<div>
+		
+		<form action="" class="reg_con">
+		<div>
+		<h1>Register Here!</h1>
+		</div>
+
+				<div class="login_2" style="text-align: right;">
+					<span > have an account?
+				<a href="petstoffeee.html" class="login-form_sign-up"> Log in </a></span>
+				</div>
+		<div class=reg_con_lg>
+		<div class="user_name_wrapper">
+				<div class="First_name">
+					<span class="fa fa-user"></span>
+				<input type="text" name="First Name" placeholder="First Name"></input>
+			</div>
+			<!-- <div class="middle_Name">
+				<span class="fa fa-user"></span>
+				<input type="text" name="middle_Name" placeholder="Middle Name"></input>
+			</div> -->
+			<div class="Last_Name">
+				<span class="fa fa-user"></span>
+				<input type="text" name="Last_Name" placeholder="Last Name"></input>
+			</div>
+		</div>
+
+		<div class=mobile_verif_wrapper>
+			<div class="mobile_number">
+				<input type="text" name="Mobile_no" placeholder="Mobile Number"></input>
+				<button>Generate OTP</button>
+			</div>
+			<div class="verify_otp">
+				<div method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">
+				<!-- <form method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off"> -->
+					<input type="text" id="digit-1" name="digit-1" data-next="digit-2" />
+					<input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" />
+					<input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" />
+					<span class="splitter">&ndash;</span>
+					<input type="text" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3" />
+					<input type="text" id="digit-5" name="digit-5" data-next="digit-6" data-previous="digit-4" />
+					<input type="text" id="digit-6" name="digit-6" data-previous="digit-5" />
+				<!-- </form>
+ -->				</div>
+				<button>Verify</button>
+			</div>
+		</div>
+		<div class="user_cred_wrapper">
+			<div class="field1">
+				<span class="fa fa-envelope-square"></span>
+			<input title="username" type="text" name="username" placeholder="User Id" class="username" autocapitalize="none" autocorrect="false"></input>
+			</div>
+			<div class="field">
+				<span class="fa fa-lock"></span>
+				<input title="Password" type="Password" name="Password" placeholder="Password" class="Password"></input>
+			</div>
+			<div class="field">
+				<span class="fa fa-lock"></span>
+				<input title="confirm Password" type="Password" name="Confirm Password" placeholder="confirm Password" class="Password"></input>
+			</div>
+
+
+		</div>
+
+		</div>
+		</form>
+</body>
+</html>
